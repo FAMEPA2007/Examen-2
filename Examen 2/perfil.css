@@ -1,0 +1,100 @@
+body{
+    background-image: url(imagenes/36677.jpg);
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+}
+.presentacion{
+    font-size: 25px;
+    font-style: oblique;
+}
+.inicio{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 255, 0, .4);
+}
+.foto{
+    border-radius: 50%;
+
+}
+.inicio h1{
+    font-size: 40px;
+     }
+
+.section ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.section ul li a{
+display: inline-block;
+text-decoration: none;
+color:white;
+}
+.section ul li a{
+    color: white;
+    font-size:45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.section ul li a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+.sor{
+    position: relative;
+    justify-content: center;
+    width: 180px;
+    transition: all .3s ease;
+}
+.sor .foto{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor .capa{
+    position: absolute;
+    width: 180 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor:hover::before{
+    opacity:1;
+}
+.sor:hover .capa{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor .capa{
+    width: 180px;
+    height: 200px;
+}

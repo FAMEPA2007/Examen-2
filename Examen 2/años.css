@@ -1,0 +1,284 @@
+body{
+    background-image: url(imagenes/CJWVQEYYRZG3RN7OALJGWGH6TM.jpg.webp);
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+}
+.años{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background: rgba(47, 0, 255, 0.562);
+}
+.imagenesaños{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sor2{
+    position: relative;
+    justify-content: center;
+    width: 180px;
+    transition: all .3s ease;
+    align-items: center;
+}
+.sor2 .foto2{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor2 .capa2{
+    position: absolute;
+    width: 200 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor2:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor2::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor2:hover::before{
+    opacity:1;
+}
+.sor2:hover .capa2{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor2 .capa2{
+    width: 200px;
+    height: 200px;
+}
+.sor3{
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    transition: all .3s ease;
+    align-items: center;
+}
+.sor3 .foto3{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor3 .capa3{
+    position: absolute;
+    width: 200 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor3:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor3:hover::before{
+    opacity:1;
+}
+.sor3:hover .capa3{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor3 .capa3{
+    width: 200px;
+    height: 200px;
+}
+.sor4{
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    transition: all .3s ease;
+    align-items: center;
+}
+.sor4 .foto4{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor4 .capa4{
+    position: absolute;
+    width: 200 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor4:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor4::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor4:hover::before{
+    opacity:1;
+}
+.sor4:hover .capa4{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor4 .capa4{
+    width: 200px;
+    height: 200px;
+}
+
+.sor5{
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    transition: all .3s ease;
+    align-items: center;
+}
+.sor5 .foto5{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor5 .capa5{
+    position: absolute;
+    width: 200 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor5:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor5::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor5:hover::before{
+    opacity:1;
+}
+.sor5:hover .capa5{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor5 .capa5{
+    width: 200px;
+    height: 200px;
+}
+ 
+.sor6{
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    transition: all .3s ease;
+    align-items: center;
+}
+.sor6 .foto6{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+object-fit: cover;
+width:100%;
+}
+.sor6 .capa6{
+    position: absolute;
+    width: 200 px;
+    bottom: 0;
+    left: 0;
+right: 0;
+margin: auto;
+transition: .3 ease;
+opacity: 0;
+transform: translate(25%)
+
+}
+.sor6:hover{
+    transform: perspective(150px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0)
+
+}
+.sor6::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.sor6:hover::before{
+    opacity:1;
+}
+.sor6:hover .capa6{
+    opacity:1;
+    transform: translateY(10%);
+}
+.sor6 .capa6{
+    width: 200px;
+    height: 200px;
+}
